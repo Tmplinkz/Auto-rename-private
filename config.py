@@ -3,20 +3,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "10840324")
+    API_HASH  = os.environ.get("API_HASH", "a630b9cf17959bcbffd661edbc719e09")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6390630887:AAFs5F5a8Rng6RWjfm3j9KlrLVSbdnpVcpw") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","madflixbotz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","cluster0")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ganesh:8525@cluster0.gs1kks8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/6ef6eb1f0aed4920adaf2.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5066042764').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001642722238") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002144632804"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -35,7 +35,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
     
-<b>Bot Is Made By @Madflix_Bots</b>"""
+<b>Bot Is Made By @XANIME_UNIVERSE</b>"""
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
@@ -44,7 +44,7 @@ Use These Keywords To Setup Custom File Name
 ✓ episode :- To Replace Episode Number
 ✓ quality :- To Replace Video Resolution
 
-<b>➻ Example :</b> <code> /autorename Naruto Shippuden S02 - EPepisode - quality  [Dual Audio] - @Madflix_Bots </code>
+<b>➻ Example :</b> <code> /autorename Naruto Shippuden S02 - EPepisode - quality  [Dual Audio] - @XANIME_UNIVERSE </code>
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
@@ -52,10 +52,10 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>📢 Channel :</b> <a href='https://t.me/XANIME_UNIVERSE'>xᴀɴɪᴍᴇ ᴜɴɪᴠᴇʀsᴇ</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/Dumb_luffy'>ʟᴜғғʏ</a>
     
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @XANIME_UNIVERSE"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
@@ -82,7 +82,7 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> """
+<b>🛍 UPI ID:</b> <code>❣️❣️❣️</code> """
     
     HELP_TXT = """<b>Hey</b> {}
     
