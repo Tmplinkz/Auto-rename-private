@@ -8,7 +8,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6390630887:AAFs5F5a8Rng6RWjfm3j9KlrLVSbdnpVcpw") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","cluster0")     
+    DB_NAME = os.environ.get("DB_NAME","madflixbotz")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://ganesh:8525@cluster0.gs1kks8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
