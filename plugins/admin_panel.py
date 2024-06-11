@@ -18,7 +18,7 @@ async def restart_bot(b, m):
     global is_restarting
     if not is_restarting:
         is_restarting = True
-        await m.reply_text("**🔄 Restarting.....**")
+        await m.reply_text("**🔄 Restarting..**")
 
         # Gracefully stop the bot's event loop
         b.stop()
