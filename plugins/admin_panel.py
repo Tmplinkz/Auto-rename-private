@@ -53,7 +53,7 @@ async def get_stats(bot, message):
 
 @Client.on_message(filters.command("broadcast") & filters.user(Config.ADMIN) & filters.reply)
 async def broadcast_handler(bot: Client, m: Message):
-    await bot.send_message(Config.LOG_CHANNEL, f"{m.from_user.mention} or {m.from_user.id} Is Started The Broadcast......")
+    await bot.send_message(Config.LOG_CHANNEL, f"{m.from_user.mention} or {m.from_user.id} Is Started The Broadcast.......")
     all_users = await madflixbotz.get_all_users()
     broadcast_msg = m.reply_to_message
     sts_msg = await m.reply_text("Broadcast Started..!") 
