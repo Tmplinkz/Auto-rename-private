@@ -37,7 +37,7 @@ async def tutorial(bot,message):
 	    disable_web_page_preview=True,
 	    reply_markup=InlineKeyboardMarkup([
         			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/Dumb_luffy"), 
-        			InlineKeyboardButton("⚡ Tutorial",url = "https://t.me/xanime_chat_group") ]])
+        			InlineKeyboardButton("⚡ Tutorial!",url = "https://t.me/xanime_chat_group") ]])
 	)
 
 
